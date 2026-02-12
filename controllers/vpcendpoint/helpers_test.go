@@ -371,6 +371,7 @@ func TestVpcEndpointReconciler_findOrCreateVpcEndpoint(t *testing.T) {
 	}
 }
 
+
 func TestVpcEndpointReconciler_ensureVpcEndpointSubnets(t *testing.T) {
 	tests := []struct {
 		name      string
